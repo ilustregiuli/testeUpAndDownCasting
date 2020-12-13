@@ -22,8 +22,8 @@ public class Ema extends Ave{
 	}
 	
 	@Override
-	public void voar() {
-		System.out.println("...............");
+	public String voar() {
+		return "...............";
 	}
 	
 	@Override

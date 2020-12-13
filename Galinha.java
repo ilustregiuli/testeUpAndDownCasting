@@ -22,8 +22,8 @@ public class Galinha extends Ave {
 	}
 	
 	@Override
-	public void voar() {
-		System.out.println("Flap... tap tap... flap flap.... tap tap...");
+	public String voar() {
+		return "Flap... tap tap... flap flap.... tap tap...";
 	}
 	
 	@Override

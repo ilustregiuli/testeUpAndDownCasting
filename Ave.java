@@ -40,8 +40,8 @@ public class Ave {
 		this.voa = voa;
 	}
 	
-	public void voar() {
-		System.out.println("Flap, flap, flap...");
+	public String voar() {
+		return "Flap, flap, flap...";
 	}
 	
 	public String bicar() {
