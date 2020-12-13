@@ -85,6 +85,15 @@ public class Main {
 	 *   
 	 */
 	
+	
+	// instanceof - compara uma variável com uma classe e devolve "true" or "false" se a variavel for instancia da classe
+	System.out.println("******************************************************************************");
+	System.out.println("g é uma instancia de Galinha?");
+	System.out.println(g instanceof Galinha);
+	System.out.println("giselda é uma instancia de Galinha?");
+	System.out.println(giselda instanceof Galinha);
+	System.out.println("giselda é uma instancia de Ave?");
+	System.out.println(giselda instanceof Ave);
 
 	}
 
